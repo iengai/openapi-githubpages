@@ -1,16 +1,15 @@
-InternalServerError:
-  description: Unexpected Error
-  content:
-    application/json:
-      schema:
-        type: object
-        required:
-          - error
-        properties:
-          error:
-            type: string
-            example: SYSTEM_ERROR
-          fields:
-            type: string
-          global:
-            type: string
+description: Internal Error
+content:
+  application/json:
+    schema:
+      type: object
+      required:
+        - error
+      properties:
+        error:
+          type: string
+          example: SYSTEM_ERROR
+        fields:
+          type: string
+        global:
+          type: string
