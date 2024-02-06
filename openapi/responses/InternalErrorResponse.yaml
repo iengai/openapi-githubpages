@@ -13,3 +13,6 @@ content:
           type: string
         global:
           type: string
+        inMainBranch:
+          type: string
+          
